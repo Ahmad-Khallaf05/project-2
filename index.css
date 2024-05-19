@@ -90,3 +90,12 @@ header {
     padding: 50px;
 
 }
+.pro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.Projects {
+    text-align: center;
+}
