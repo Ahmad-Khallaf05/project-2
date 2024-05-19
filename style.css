@@ -1,6 +1,8 @@
-
+.background {
+    background-color: silver;
+}
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 75%;
     margin: auto;
     padding: 20px;
@@ -8,13 +10,13 @@ main {
 }
 
 header {
-    background-color: rgb(174, 174, 174);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
     border-radius: 20px;
+    background-color: silver;
 }
 
 .logo {
@@ -40,8 +42,10 @@ header {
 }
 
 .home {
+    background-image: url(https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Programming-vs-Web-Development.jpg);
     display: grid;
     grid-template-columns: 50% 50%;
+    border-radius: 20px;
 }
 
 .a2 {
@@ -52,6 +56,12 @@ header {
     width: 80%;
 }
 
+  .wite{
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    background-color: silver ;
+  }
 .abc {
     justify-content: center;
     text-align: center;
