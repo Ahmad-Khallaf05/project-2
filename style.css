@@ -14,8 +14,9 @@
     .aboutme {
         flex-direction: column;
     }
-    .card {
-        width: 100%;
+
+    .cssinfo {
+        width: 678px;
     }
    
 }
