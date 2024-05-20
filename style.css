@@ -128,3 +128,9 @@ section{
 .black {
     color: black;
 }
+.tx{
+    text-align: left;
+}
+hr {
+    color: white;
+}
