@@ -1,6 +1,6 @@
 
 body{
-    background: Beige;
+    background: rgb(0, 0, 0);
 }
 *{
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body{
 
 }
 header{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     display: flex;
@@ -26,7 +26,7 @@ header{
     text-decoration: none;
 }
 .nav a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 300;
     font-size: 20px;
@@ -35,7 +35,7 @@ header{
 section{
     padding: 100px 200px;
 }
-.section1{
+.aboutme {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
@@ -44,59 +44,34 @@ section{
     align-items: center;
     background: url(https://ciracollege.com/wp-content/uploads/2020/11/emile-perron-xrVDYZRGdw4-unsplash-scaled.jpg) no-repeat;
     background-size: cover;
+    text-align: center;
 
 }
-.section1 h1 {
-    color: white;
+.aboutme h1 {
+    color:white;
     font-size: 20px;
     font-weight: 1400;
 }
-.section1 h1 span {
+.aboutme h1 span {
     display: inline-block;
     font-size: 30px;
     margin-top: 10px;
 }
-.section1 h2 {
+.aboutme h2 {
     color: white;
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 23px;
 } 
-.but1{
-    text-decoration: none;
-    color: yellow;
-    background: rgb(57, 57, 57);
-    border: yellow;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    padding: 10px;
-    border-radius: 9px;
-}
-.but1:hover {
-    background: rgb(60, 60, 60);
-    transform: scale(1.1);
-    transition: 0.5s ease;
-
-}
 .About{
     display: flex;
     justify-content: center;
-    color: yellow;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 50px;
 
 }
-.section21{
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
+
 .title{
     display: flex;
     justify-content: center;
@@ -112,7 +87,7 @@ section{
     flex-wrap: wrap;
 }
 .card{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     width: 21.25;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
@@ -136,7 +111,6 @@ section{
 }
 .insta{
     text-decoration: none;
-    color: yellow;
 }
 
 .education {
@@ -144,10 +118,17 @@ section{
     flex-direction: row;
 }
 
-.brown {
-    color: brown;
+.blue {
+    color: rgb(58, 108, 244);
 }
 
 .white {
     color: white;
+}
+
+.non {
+    botton:none ;
+}
+.black {
+    color: black;
 }
