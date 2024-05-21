@@ -1,6 +1,6 @@
 @media (max-width: 678px) {
     * {
-        max-width: 678px;
+        max-width: 100%;
     }
     .navnon {
         display: none;
