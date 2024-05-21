@@ -1,4 +1,3 @@
-
 @media (max-width: 678px) {
     * {
         max-width: 678px;
@@ -6,24 +5,8 @@
     .navnon {
         display: none;
     }
-    .imp {
-        max-width: 200px;
-        border: 5px white solid;
-        border-radius: 100px;
-    }
-    .aboutme {
-        flex-direction: column;
-    }
-
-    .cssinfo {
-        width: 678px;
-    }
-   
 }
 
-body{
-    background: rgb(0, 0, 0);
-}
 *{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,10 +15,25 @@ body{
     margin: 0;
 
 }
-.na {
-    margin: 5px;
+
+.hrefnone {
+    text-decoration: none;
 }
-header{
+
+.background {
+    background-color: black;
+}
+
+.bluetext {
+    color: rgb(58, 108, 244);
+}
+
+hr {
+    color: white;
+}
+
+/* header */
+header {
     background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
@@ -45,14 +43,19 @@ header{
     padding: 10px 200px;
     z-index: 200;
 }
-.logo{
+
+.logo {
     font-weight: 400;
     font-size: 28px;
     text-decoration: none;
 }
-section{
-    padding: 100px 200px;
+
+.na {
+    margin: 5px;
 }
+
+/* About */
+
 .aboutme {
     width: 100%;
     min-height: 100vh;
@@ -63,46 +66,37 @@ section{
     text-align: center;
 
 }
-.aboutme h1 {
-    color:white;
+
+.abouth1 {
+    color: white;
     font-size: 20px;
     font-weight: 1400;
 }
-.aboutme h1 span {
+
+.ahmad {
     display: inline-block;
     font-size: 30px;
     margin-top: 10px;
 }
-.aboutme h2 {
+
+.abouth2 {
     color: white;
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 23px;
-} 
-.About{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 50px;
-
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 50px;
+.abouttext {
+    width: 50%;
+}
 
+.abputimg {
+    width: 50%;
 }
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.card{
+
+/* courses */
+
+.card-courses {
     background-color: rgb(255, 255, 255);
     width: 21.25;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
@@ -110,47 +104,226 @@ section{
     padding: 25px;
     margin: 15px;
 }
-.card:hover {
+
+.card-courses:hover {
     transform: scale(1.1);
     transition: 0.5s ease;
 }
-.icon{
+
+.title-courses {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.content-courses {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-courses {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
+}
+
+.tx {
+    text-align: left;
+}
+
+/* education */
+
+.title-education {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-education {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-education {
+    background-color: rgb(255, 255, 255);
+    width: 21.25;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.card-education:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.icon-education {
+   margin: 10px;
+}
+
+.info-education {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
+}
+
+/* skills */
+
+.title-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.content-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-skills {
+    background-color: rgb(255, 255, 255);
+    width: 21.25;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+}
+
+.card-skills:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.icon-skills {
     font-size: 8em;
     text-align: center;
     margin: 10px;
 }
-.cssinfo{
-     color: white;
-     font-size: 1.2em;
-     margin: 10px;
-     text-align: center;
-}
-.insta{
-    text-decoration: none;
-}
 
-.education {
-    display: flex;
-    flex-direction: row;
-}
-
-.blue {
-    color: rgb(58, 108, 244);
-}
-
-.white {
+.info-skills {
     color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
 }
 
-.non {
-    botton:none ;
+/* projects */
+
+.title-projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap
 }
-.black {
-    color: black;
+
+.content-projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.tx{
-    text-align: left;
+
+.card-projects {
+    background-color: rgb(255, 255, 255);
+    width: 21.25;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
 }
-hr {
+
+.card-projects:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.icon-projects {
+    margin: 10px;
+}
+
+.Link-projects {
+    border: solid 10px;
+    border-radius: 25px;
+    border-color: rgb(58, 108, 244);
+    color: white;
+    background-color: rgb(58, 108, 244);
+}
+
+.info-projects {
+    color: white;
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
+}
+
+.info-projects:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+/* Contact */
+
+.title-Contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.content-Contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-Contact {
+    background-color: rgb(255, 255, 255);
+    width: 21.25;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+}
+
+.card-Contact:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.icon-Contact {
+    font-size: 8em;
+    text-align: center;
+    margin: 10px;
+}
+
+.info-Contact {
+    font-size: 1.2em;
+    margin: 10px;
+    text-align: center;
+    border: solid 5px;
+    border-color: rgb(58, 108, 244);
+    border-radius: 25px;
+    background-color: rgb(58, 108, 244);
+    padding: 5px;
+}
+
+.info-Contact:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.text-color-Contact {
     color: white;
 }
